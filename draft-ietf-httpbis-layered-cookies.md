@@ -1342,6 +1342,8 @@ stored or cannot be distinguished from the cookie it replaced:
 
 1. If _cookie_'s name is the empty byte sequence and one of the following is true:
 
+    * _cookie_'s value contains 0x3D (=),
+
     * _cookie_'s value, byte-lowercased, starts with `__secure-`,
 
     * _cookie_'s value, byte-lowercased, starts with `__host-`,
